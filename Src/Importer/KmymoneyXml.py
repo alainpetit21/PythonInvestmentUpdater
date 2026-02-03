@@ -5,7 +5,7 @@ from decimal import Decimal
 import xml.etree.ElementTree as ElementTree
 import re
 
-from Model.DividendRow import DividendRow
+from Importer.Model.DividendRow import DividendRow
 
 
 class KmymoneyXml:

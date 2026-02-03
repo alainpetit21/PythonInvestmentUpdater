@@ -2,10 +2,10 @@ from __future__ import annotations
 
 import os
 
-from AppConfig import AppConfig
-from DividendReaderFactory import DividendReaderFactory
-from KmymoneyXml import KmymoneyXml
-from Model.ImportResult import ImportResult
+from Importer.AppConfig import AppConfig
+from Importer.DividendReaderFactory import DividendReaderFactory
+from Importer.KmymoneyXml import KmymoneyXml
+from Importer.Model.ImportResult import ImportResult
 
 
 class DividendImporter:

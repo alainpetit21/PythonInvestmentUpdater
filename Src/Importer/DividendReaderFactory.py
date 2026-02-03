@@ -2,9 +2,9 @@ from __future__ import annotations
 
 import os
 
-from DividendCsvReader import DividendCsvReader
-from DividendReader import DividendReader
-from DividendXlsxReader import DividendXlsxReader
+from Importer.DividendCsvReader import DividendCsvReader
+from Importer.DividendReader import DividendReader
+from Importer.DividendXlsxReader import DividendXlsxReader
 
 
 class DividendReaderFactory:

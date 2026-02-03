@@ -3,7 +3,7 @@ from typing import List, Optional
 
 import json
 
-from Model.PortfolioMapping import PortfolioMapping
+from Importer.Model.PortfolioMapping import PortfolioMapping
 
 
 class AppConfig:

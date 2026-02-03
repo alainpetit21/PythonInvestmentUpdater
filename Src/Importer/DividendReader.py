@@ -2,7 +2,7 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import List
 
-from Model.DividendRow import DividendRow
+from Importer.Model.DividendRow import DividendRow
 
 
 class DividendReader(ABC):

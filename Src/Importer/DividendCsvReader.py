@@ -5,8 +5,8 @@ from typing import Dict, List, Optional
 
 import csv
 
-from DividendReader import DividendReader
-from Model.DividendRow import DividendRow
+from Importer.DividendReader import DividendReader
+from Importer.Model.DividendRow import DividendRow
 
 
 class DividendCsvReader(DividendReader):

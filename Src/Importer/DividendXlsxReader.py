@@ -4,8 +4,8 @@ from decimal import Decimal
 from typing import Any, Dict, List, Optional
 from openpyxl import load_workbook
 
-from DividendReader import DividendReader
-from Model.DividendRow import DividendRow
+from Importer.DividendReader import DividendReader
+from Importer.Model.DividendRow import DividendRow
 
 
 class DividendXlsxReader(DividendReader):
